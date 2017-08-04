@@ -1,0 +1,116 @@
+<tiltviewergallery>
+	<photos>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.baidu.com">
+			<title>Image 1</title>
+			<description>This is a regular text description.</description>
+		</photo>
+		<photo imageurl="imgs/1024 768.jpg" linkurl="http://www.google.com">
+			<title>Image 2</title>
+			<description><![CDATA[This is a HTML text description. Supported tags are <b>bold</b>, <u>underline</u>, <i>italics</i>, linebreaks<br>and <font color="#ff0000" size="60">font tags</font>. Hyperlinks are not supported.]]></description>
+		</photo>
+		<photo imageurl="imgs/1280 800.jpg" >
+			<title>Image 3</title>
+		<description>This image has no link button because the 'linkurl' property was removed from the photo tag</description>			
+		</photo>
+		<photo imageurl="imgs/1280 1024.jpg" linkurl="http://www.google.com" showFlipButton="false">
+			<title>Image 4</title>
+			<description>This image has no flip button because the 'showFlipButton' property was added to the photo tag</description>			
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 5</title>			
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 6</title>			
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 7</title>			
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="imgs/1440 900.jpg">
+			<title>Image 8</title>			
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 9</title>			
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 10</title>			
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 11</title>			
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 12</title>			
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 13</title>			
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 14</title>			
+		</photo>	
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 15</title>			
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 16</title>
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 17</title>
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 18</title>
+		</photo><photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 19</title>
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 20</title>
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 21</title>
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 22</title>
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 23</title>
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 24</title>
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 25</title>
+		</photo>
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 26</title>
+		</photo>	
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 27</title>
+		</photo>	
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 28</title>
+		</photo>	
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 29</title>
+		</photo>	
+		<photo imageurl="imgs/1440 900.jpg" linkurl="http://www.google.com">
+			<title>Image 30</title>
+		</photo>
+                <photo imageurl="imgs/1900 966.jpg" linkurl="http://www.google.com">
+			<title>Image 31</title>
+                </photo>
+                <photo imageurl="imgs/1920 1200.jpg" linkurl="http://www.google.com">
+			<title>Image 32</title>
+		</photo>
+                <photo imageurl="imgs/900 450.jpg" linkurl="http://www.google.com">
+			<title>Image 33</title>
+		</photo>
+                <photo imageurl="imgs/900 600.jpg" linkurl="http://www.google.com">
+			<title>Image 34</title>
+		</photo>
+                <photo imageurl="imgs/1280 649.jpg" linkurl="http://www.google.com">
+			<title>Image 35</title>
+		</photo>
+                <photo imageurl="imgs/1440 729.jpg" linkurl="http://www.google.com">
+			<title>Image 36</title>
+		</photo>
+										
+	</photos>
+</tiltviewergallery>
