@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title> Color Dream Studio </title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+		
+		<link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
+		<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+	</head>
+	<body>
+		<div class="container">
+
+			
+
+			
+			
+			<div id="top_nav">
+				<div id="nav_wrap">
+					<ul id="nav">
+			<!--<li><a href="http://designindevelopment.com/demos/apple/?iframe=true&width=100%&height=100%#" class="apple"><span>logo</span></a></li>-->
+			<li><a href="http://www.coloryourdream.net/pursue">&nbsp;&nbsp;&nbsp;&nbsp;追&nbsp;&nbsp;逐&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+			<li><a href="http://www.coloryourdream.net/seek">&nbsp;&nbsp;&nbsp;寻&nbsp;&nbsp;找&nbsp;&nbsp;&nbsp;</a></li>
+			<li><a href="http://www.coloryourdream.net/find/" target="_blank">&nbsp;&nbsp;&nbsp;发&nbsp;&nbsp;现&nbsp;&nbsp;&nbsp;</a></li>
+			<li><a href="http://www.coloryourdream.net/integrate/">&nbsp;&nbsp;&nbsp;加&nbsp;&nbsp;入&nbsp;&nbsp;我&nbsp;&nbsp;们&nbsp;&nbsp;</a></li>
+			
+			
+			
+			<!--<li class="search_container">
+				<form class="search" method="get" action="http://designindevelopment.com/demos/apple/?iframe=true&width=100%&height=100%#">
+					<label for="search">
+						<input type="text" id="search" placeholder="Search">
+					</label>
+				</form>
+			</li>-->
+		</ul>
+				
+				</div>
+			</div>
+
+			<div class="wrapper">
+
+				<ul id="sb-slider" class="sb-slider">
+					<li>
+						<a href="http://www.coloryourdream.net/pursue" target="_blank"><img src="images/pursue.jpg" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>追逐是一场旅行</h3>
+						</div>
+					</li>
+					<li>
+						<a href="http://www.coloryourdream.net/seek" target="_blank"><img src="images/seek.jpg" alt="image2"/></a>
+						<div class="sb-description">
+							<h3>相逢在寻找的路上</h3>
+						</div>
+					</li>
+					<li>
+						<a href="http://www.coloryourdream.net/find" target="_blank"><img src="images/find.jpg" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>留下发现的底片</h3>
+						</div>
+					</li>
+					<li>
+						<a href="http://www.coloryourdream.net/integrate" target="_blank"><img src="images/integrate.jpg" alt="image1"/></a>
+						<div class="sb-description">
+							<h3>加入这场旅行</h3>
+						</div>
+					</li>
+				</ul>
+
+				<div id="shadow" class="shadow"></div>
+
+				<div id="nav-arrows" class="nav-arrows">
+					<a href="#">Next</a>
+					<a href="#">Previous</a>
+				</div>
+
+			</div><!-- /wrapper -->
+			
+
+		</div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				
+				var Page = (function() {
+
+					var $navArrows = $( '#nav-arrows' ).hide(),
+						$shadow = $( '#shadow' ).hide(),
+						slicebox = $( '#sb-slider' ).slicebox( {
+							onReady : function() {
+
+								$navArrows.show();
+								$shadow.show();
+
+							},
+							orientation : 'r',
+							cuboidsRandom : true,
+							disperseFactor : 30,
+							cuboidsCount : 5//分块数
+						} ),
+						
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							// add navigation events
+							$navArrows.children( ':first' ).on( 'click', function() {
+
+								slicebox.next();
+								return false;
+
+							} );
+
+							$navArrows.children( ':last' ).on( 'click', function() {
+								
+								slicebox.previous();
+								return false;
+
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+
+			});
+		</script>
+        <div id="cr" style="position:absolute;bottom:0px;text-align:center;width:100%;height:70px;font-family:inherit;line-height:35px;font-size:13px;letter-spacing:1.5px;">Copyright © 2013 CDS 保留所有权利<p style="font-family:inherit;font-size:12px;font-weight:bold;letter-spacing:1.5px;background-color:#cacaca;">本站支持HTML5，请使用非IE核心的浏览器访问本站</p>
+</div>
+	</body>
+</html>	
